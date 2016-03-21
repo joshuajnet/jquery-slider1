@@ -1,4 +1,5 @@
 $(document).ready(function() {	
+	
 	function slideshow() {
 	
 		$(this).append('<div class="prev">&#8249;</div><div class="next">&#8250;</div><div class="startstop"></div>');
@@ -74,5 +75,5 @@ $(document).ready(function() {
 		
 	}
 	
-	$('#feature, .slider').each(slideshow);
+	$('.slider').slideshow();
 }
