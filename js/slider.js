@@ -75,5 +75,5 @@ $(document).ready(function() {
 		
 	}
 	
-	$('.slider').slideshow();
-}
+	$('.slider').each(slideshow);
+});
