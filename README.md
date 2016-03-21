@@ -1,8 +1,8 @@
 # jquery-slider1
 
-A simple jquery slideshow.
+A simple jquery slideshow with start/stop, autoplay, and next/prev controls.
 
-HTML - must wrap in a div, called '.slider' here. All individual slide divs must be called '.slide-panel'. Content can be anything ineach div.
+HTML - must wrap in a div, called '.slider' here. All individual slide divs must be called '.slide-panel'. Content can be anything in each div.
 
 		<div class="slider">
 			<div class="slide-panel">
@@ -25,5 +25,5 @@ CSS:
 
 JS call:
 
-$('.slider').slideshow();
+		$('.slider').slideshow();
 
